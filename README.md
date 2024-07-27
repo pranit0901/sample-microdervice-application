@@ -1,1 +1,1 @@
-# sample-microdervice-application
+# sample-microservice-application
