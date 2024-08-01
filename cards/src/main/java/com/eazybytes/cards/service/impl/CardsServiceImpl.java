@@ -39,7 +39,7 @@ public class CardsServiceImpl implements ICardsService {
      */
     private Cards createNewCard(String mobileNumber){
         Cards newCard = new Cards();
-        long randomCardNumber = 1000000000000L + new Random().nextInt(900000000);
+        long randomCardNumber = 100000000000L + new Random().nextInt(900000000);
         newCard.setCardNumber(Long.toString(randomCardNumber));
         newCard.setMobileNumber(mobileNumber);
         newCard.setCardType(CardsConstants.CREDIT_CARD);
